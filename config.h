@@ -115,27 +115,27 @@ float alphaUnfocus;
 static const char *colorname[] = {
     "black",
     "red3",
-    "green3",
+    "#79b879", /* green */
     "yellow3",
-    "blue2",
+    "#003b9a", /* blue */
     "magenta3",
     "cyan3",
     "gray90",
     "gray50",
-    "red",
-    "#1DE916",
-    "yellow",
-    "#5b5bfe",
-    "magenta",
-    "cyan",
-    "white",
+    "#ff7979", /* light red */
+    "#b1dbaf", /* light green */
+    "#f4e2a8", /* light yellow */
+    "#a9befe", /* light blue */
+    "#e4accf", /* light magenta */
+    "#57b8af", /* light cyan 7bb8bd */
+    "#f5f5f5", /* white */
     [255] = 0,
 
     /* more colors can be added after 255 to use with DefaultXX */
-    "gray90", /* 256 -> cursor */
+    "gray90", /* 256 -> cursor 1*/
     "#555555", /* 257 -> rev cursor */
     "black",   /* 258 -> bg */
-    "gray90",  /* 259 -> fg */
+    "#cecece",  /* 259 -> fg */
 };
 
 /*
